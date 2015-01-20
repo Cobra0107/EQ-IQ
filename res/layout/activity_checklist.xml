@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.eqiqcalculator.CheckList"
+    tools:ignore="MergeRootFrame" 
+    android:background="@drawable/background">
+
+    <ListView
+        android:id="@+id/checklist"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="6.08" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="2"
+        android:text="@string/sumry_submit"/>
+	
+    
+   
+</LinearLayout>
